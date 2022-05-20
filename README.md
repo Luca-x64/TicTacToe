@@ -1,4 +1,6 @@
 # TicTacToe
+# This project was a school assignment
+
 Si implementi graficamente il gioco del TIC TAC TOE.
 
 Traccia Base [7 punti] >> OBBLIGATORIO

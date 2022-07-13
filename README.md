@@ -1,11 +1,8 @@
 # TicTacToe
 # This project was a school assignment
 
-Si implementi graficamente il gioco del TIC TAC TOE.
+Si implementi graficamente in Java FX il gioco del TIC TAC TOE con AI.
 
-Traccia Base [7 punti] >> OBBLIGATORIO
-
-Specifiche:
 creare una JForm con la griglia 3x3 con 9 caselle
 gestire le mosse dei due giocatori, a turno (X ed O)
 inserire un contatore che indica il numero totale di gare disputate, ed il numero di vittorie di ogni giocatore
@@ -13,7 +10,7 @@ inserire un pulsante per avviare le partite, ed un altro per azzerare il puntegg
 includere la gestione delle mosse vincenti ed interrompere una partita quando si vince o finisce in patta
 gestire l'uscita dalla form con il pulsante di chiusura
 
-Traccia estesa [3 punti] >> FACOLTATIVO
+
 
 Si integrino le seguenti funzionalità:
 

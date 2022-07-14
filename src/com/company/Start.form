@@ -69,7 +69,7 @@
             <properties>
               <font size="20"/>
               <foreground color="-15839744"/>
-              <text value="Inserisci i nomi dei giocatori:"/>
+              <text value="Enter the names of the players:"/>
             </properties>
           </component>
           <component id="1a84" class="javax.swing.JTextField" binding="textFieldNameP1" default-binding="true">
@@ -147,7 +147,7 @@
               <focusPainted value="false"/>
               <font size="22"/>
               <foreground color="-16777216"/>
-              <text value="1 Giocatore"/>
+              <text value="1 Player vs IA"/>
             </properties>
           </component>
           <component id="93f95" class="javax.swing.JButton" binding="twoPlayerBtn">
@@ -160,7 +160,7 @@
               <focusPainted value="false"/>
               <font size="22"/>
               <foreground color="-16777216"/>
-              <text value="2 Giocatori"/>
+              <text value="2 Players"/>
             </properties>
           </component>
           <component id="e6a06" class="javax.swing.JTextField" binding="textFieldNameP2">

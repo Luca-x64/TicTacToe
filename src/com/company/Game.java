@@ -110,7 +110,7 @@ public class Game extends JFrame {
             }
         }
         if (end) {
-            interrompiPartitaButton.setText("Nuova Partita");
+            interrompiPartitaButton.setText("New Game!");
             interrompiPartitaButton.setBackground(Color.green);
             interrompiPartitaButton.setForeground(Color.black);
             p1.gamesPlayed();
@@ -121,7 +121,7 @@ public class Game extends JFrame {
             }
             countMoves = 0;
         } else if (countMoves == 9) {
-            interrompiPartitaButton.setText("Nuova Partita");
+            interrompiPartitaButton.setText("New Game!");
             interrompiPartitaButton.setBackground(Color.green);
             interrompiPartitaButton.setForeground(Color.black);
             p1.gamesPlayed();
@@ -141,12 +141,12 @@ public class Game extends JFrame {
         try {
             java.awt.Desktop.getDesktop().browse(java.net.URI.create("https://www.wikihow.it/Vincere-a-Tris"));
         } catch (java.io.IOException e) {
-            System.out.println("Impossibile aprire il sito" + e.getMessage());
+            System.out.println("The site could not be opened" + e.getMessage());
         }
     }
 
     private void interrompiPartita() {
-        interrompiPartitaButton.setText("Interrompi Partita");
+        interrompiPartitaButton.setText("Stop game");
         interrompiPartitaButton.setBackground(Color.red);
         interrompiPartitaButton.setForeground(Color.white);
         listButtonAvaible = new ArrayList<>(listButton);
@@ -197,7 +197,7 @@ public class Game extends JFrame {
         p1.resetAll();
         p2.resetAll();
         reloadPoints();
-        alertBox.setText("Punti resettati");
+        alertBox.setText("Points cleared");
     }
 
     private void displayNextTurn(String name) {
@@ -216,6 +216,6 @@ public class Game extends JFrame {
     }
 
     private void end() {
-        Start.game.setAlertBox("Pareggio!");
+        Start.game.setAlertBox("Tie!");
     }
 }

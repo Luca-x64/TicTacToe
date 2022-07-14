@@ -65,7 +65,7 @@ public class Start extends JFrame {
             }
         } else { //2 player
             if (textFieldNameP1.getText().isEmpty() || textFieldNameP2.getText().isEmpty()) {
-                System.out.println("I nomi non posso essere vuoti!");
+                System.out.println("Names can't be empty!");
             } else {
                 Start.super.setVisible(false);
                 String nameP1 = textFieldNameP1.getText();

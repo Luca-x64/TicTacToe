@@ -9,7 +9,7 @@ AI - Smart game mode
 The human player competes against the computer, which chooses the best move to maximize the odds of winning and avoid being beaten.
 
 
-Funzioni: 
+Functions: 
 - 2 Gamemodes.
 - Possibility to see the name of the player who has to make the next move.
 - Possibility to choose the names of the players.

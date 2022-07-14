@@ -1,26 +1,25 @@
-# TicTacToe
+# TicTacToe with Java Swing
 # This project was a school assignment
 
-Si implementi graficamente in Java FX il gioco del TIC TAC TOE con AI.
+2 game modes
+- Players vs Computer (IA)
+- Player vs Player
 
-creare una JForm con la griglia 3x3 con 9 caselle
-gestire le mosse dei due giocatori, a turno (X ed O)
-inserire un contatore che indica il numero totale di gare disputate, ed il numero di vittorie di ogni giocatore
-inserire un pulsante per avviare le partite, ed un altro per azzerare il punteggio totale
-includere la gestione delle mosse vincenti ed interrompere una partita quando si vince o finisce in patta
-gestire l'uscita dalla form con il pulsante di chiusura
+AI - Smart game mode
+The human player competes against the computer, which chooses the best move to maximize the odds of winning and avoid being beaten.
 
 
+Funzioni: 
+- 2 Gamemodes.
+- Possibility to see the name of the player who has to make the next move.
+- Possibility to choose the names of the players.
+- Score count of each player.
+- Count of matches made.
+- Bar with alert messages.
+- End game management with win and draw.
 
-Si integrino le seguenti funzionalità:
-
-[STEP A]
-Aggiungere una barra dei menu con i comandi per:
-azzerare il punteggio
-avviare / interrompere una nuova partita
-visualizzare le informazioni sul programma (crediti, data / versione)
-visualizzare un aiuto in linea
-cambiare lo sfondo della finestra di gioco, con un'immagine a scelta (JPG, PNG, TIFF)
-
-[STEP B]
-Implementare la modalità di gioco "intelligente" in cui il giocatore umano compete contro il computer. Si implementi una strategia di gioco che permetta al programma, durante il suo turno, di scegliere la mossa che massimizza le probabilità di vittoria (e contemporaneamente minimizzi le probabilità di venir battuti). Rif.: minimizzare la "distanza" (in numero di mosse) dalla posizione vincente.
+Menu bar:
+- "Help" button to view the game tutorial.
+- Button to stop and play a new game.
+- Button to delete points.
+- "Info" button to see the author's information.

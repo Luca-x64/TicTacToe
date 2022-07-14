@@ -25,6 +25,7 @@ public class Start extends JFrame {
         this.setContentPane(panel);
         this.setVisible(true);
         this.setResizable(true);
+        this.setResizable(false);
         this.pack();
 
         //centra finestra
@@ -60,6 +61,7 @@ public class Start extends JFrame {
                 game = new Game(nameP1, ai.getName(), singleplayer);
                 game.setSize(650, 600);
                 game.setVisible(true);
+                game.setResizable(false);
             }
         } else { //2 player
             if (textFieldNameP1.getText().isEmpty() || textFieldNameP2.getText().isEmpty()) {
@@ -71,6 +73,7 @@ public class Start extends JFrame {
                 game = new Game(nameP1, nameP2, singleplayer);
                 game.setSize(650, 600);
                 game.setVisible(true);
+                game.setResizable(false);
             }
         }
     }

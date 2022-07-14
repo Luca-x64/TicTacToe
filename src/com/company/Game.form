@@ -359,7 +359,7 @@
                   <background color="-63488"/>
                   <focusPainted value="false"/>
                   <foreground color="-16777216"/>
-                  <text value="Interrompi partita"/>
+                  <text value="Stop game"/>
                 </properties>
               </component>
               <vspacer id="938bc">
@@ -389,7 +389,7 @@
                 <properties>
                   <background color="-2816"/>
                   <focusPainted value="false"/>
-                  <text value="Aiuto"/>
+                  <text value="Help"/>
                 </properties>
               </component>
               <component id="37170" class="javax.swing.JButton" binding="resetButton">

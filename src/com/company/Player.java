@@ -97,7 +97,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return (this.name + " ha vinto !!!");
+        return (this.name + " Won !!!");
     }
 
     public void resetAll() {

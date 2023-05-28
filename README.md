@@ -1,6 +1,6 @@
 # TicTacToe with Java Swing
 # This project was a school assignment
-(I prefer the backend side, so dont look much at the graphics, i know its bad)
+’(I prefer the backend side, so dont look much at the graphics, i know its bad)’
 
 2 game modes
 - Players vs Computer (IA)
